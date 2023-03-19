@@ -1,0 +1,70 @@
+.header {
+    color: white;
+    margin: 0;
+    width: fit-content;
+    margin-left: 1.5rem;
+    letter-spacing: .1em;
+}
+
+.description{
+ color: #88abd6;
+ font-weight: 200;
+ margin: 0;
+ margin-left: 1.5rem;
+ line-height: 1.5rem;
+}
+
+
+.priceExp {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-bottom-style: solid;
+    border-bottom-color: #39547c;
+    border-bottom-width: .05em;
+}
+
+.daysLeftDetails {
+    display: flex;
+    font-weight: 200;
+    justify-content: space-between;
+    align-content: center;
+    max-height: .1;
+    width: 5.8rem;
+    color: #88abd6;
+}
+
+.priceDetails {
+    display: flex;
+    justify-content: space-between;
+    width: 5.5rem;
+    color: #03fdfb;
+}
+
+.clockMarginTop {
+    margin-top: .1rem;
+}
+
+.header:hover {
+    color: #03fdfb;
+    cursor: pointer;
+}
+
+@media(min-width: 400px) {
+    .header {
+        margin-left: 1.2rem;    
+    }
+
+    .description {
+        margin-left: 1.2rem;
+        max-width: 15rem;
+        font-size: .9rem;    
+    }
+    
+    .priceExp {
+        margin-left: 1.2rem;    
+    }
+
+}

@@ -1,0 +1,46 @@
+.creatorDetails {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: .5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.creationOfText {
+    color: #88abd6;
+}
+
+.creatorName {
+    color: white;
+}
+
+.creatorName:hover {
+    color: #03fdfb;
+    cursor: pointer;
+}
+
+.profilePic {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+
+@media(min-width: 400px) {
+    .header {
+        margin-left: 1.2rem;    
+    }
+
+    .description {
+        margin-left: 1.2rem;
+        max-width: 15rem;
+        font-size: .9rem;    
+    }
+    
+    .priceExp {
+        margin-left: 1.2rem;    
+    }
+
+}
